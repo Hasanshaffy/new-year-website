@@ -57,7 +57,7 @@ header {
 .failure {
   margin-top: 70px;
   width: 1600px;
-  height: 3229px;
+  height: 500px;
   margin-left: 150px;
 }
 .failure-title {
@@ -87,4 +87,148 @@ header {
 }
 .failure-details .details {
   margin-bottom: 10px;
+}
+/* Plans section */
+.plan-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #151414;
+
+  font-size: 40px;
+
+  font-weight: 700;
+}
+.all-plans {
+  display: flex;
+  justify-content: space-around;
+}
+.plans {
+  width: 1200px;
+  height: 500px;
+  margin-left: 90px;
+}
+.all-plans .plan-title-name {
+  color: #151414;
+  text-align: center;
+
+  font-size: 30px;
+
+  font-weight: 700;
+}
+.all-plans .plan-title-description {
+  color: #737272;
+  text-align: center;
+
+  font-size: 25px;
+
+  font-weight: 500;
+}
+.all-plans,
+img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Keep positive section */
+.keep-positive {
+  background-image: url("/images/watch.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 300px;
+}
+.title-button {
+  background: linear-gradient(to right, #f15b22, rgba(0, 0, 0, 0));
+  height: 300px;
+  padding: 30px;
+}
+.positive-title {
+  width: 400px;
+  color: #fff;
+
+  font-size: 40px;
+
+  font-weight: 700;
+}
+.positive-button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 30px;
+  color: #f15b22;
+
+  text-align: center;
+
+  font-size: 20px;
+
+  font-weight: 600;
+}
+footer {
+  margin-top: 200px;
+}
+.footer {
+  display: flex;
+  background-color: #151414;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  padding-top: 70px;
+}
+.future-title {
+  color: #f8f8f8;
+
+  font-size: 45px;
+
+  font-weight: 700;
+}
+.future-description {
+  width: 400px;
+  color: #fff;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  margin-top: 20px;
+}
+.email,
+.contact {
+  color: #fff;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  margin-top: 20px;
+}
+.subscribe-title {
+  color: #fff;
+
+  font-size: 25px;
+
+  font-weight: 600;
+}
+.subscribe input {
+  color: #f3f3f3;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  margin-top: 20px;
+}
+.subscribe-button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  color: #f15b22;
+
+  font-size: 20px;
+
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.future-icon {
+  margin-top: 20px;
+}
+.future-icon img {
+  margin-right: 20px;
 }
